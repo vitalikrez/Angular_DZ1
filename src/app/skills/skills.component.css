@@ -1,0 +1,48 @@
+.items {
+    list-style: none;
+    padding: .3em;
+    width: 38em;
+    margin: 0 auto;
+    
+}
+
+
+.items li {
+    cursor: pointer;
+    background-color: rgb(207, 204, 204);
+    margin: .5em 0;
+    padding: .3em;
+    height: 1.6em;
+    border-radius: 4px;
+    font-size: 150%;
+    color: hsl(49, 48%, 30%);
+}
+
+.items li:hover {
+    color: rgb(236, 234, 234);
+    background-color: #e48100;
+}
+
+.counter {
+    font-size: 4em;
+}
+
+.items li.selected {
+    background-color: hsl(49, 48%, 30%);
+    color: white;
+}
+
+.invisible {
+    display: none;
+
+}
+
+.infoSkill{
+    background-color: rgb(207, 204, 204);
+        border-radius: 4px;
+}
+
+.infoSkill h1{
+    color: green;
+}
+

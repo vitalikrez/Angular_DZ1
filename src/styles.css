@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+.mainDiv{
+    margin: 0.5em;
+    padding: 0.5em;
+    width: 55%;
+    margin: 0 auto;
+    background: rgb(244, 244, 245);
+    border: 1px solid blue;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: hsl(49, 48%, 30%);
+}
+
+h2 {
+    color: #0000ff;
+}
+
+h3 {
+    color: #e48100;
+}

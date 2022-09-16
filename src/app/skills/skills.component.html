@@ -1,0 +1,18 @@
+<!-- <h2>Навички: {{getSkills()}}</h2>
+<h2>Знання: {{getKnowledge()}}</h2>
+<h2>Сертифікати: {{getCertificates()}}</h2> -->
+
+<h2>Навички, знання та сертифікати:</h2>
+<ul class="items">
+    <li *ngFor="let item of skills" (click)="onSelect(item)">
+        Дізнатися {{item.id}} </li>
+</ul>
+
+
+
+<div *ngIf="selectedItem">
+    <div class="infoSkill">
+    <h1>{{selectedItem.name}}</h1>
+    </div>
+
+</div>
