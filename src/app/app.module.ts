@@ -8,6 +8,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { PhotoComponent } from './photo/photo.component';
 
 import { FormsModule } from '@angular/forms';
+import { PipesComponent } from './pipes/pipes.component';
 
 
 
@@ -16,7 +17,8 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     MainInfoComponent,
     SkillsComponent,
-    PhotoComponent
+    PhotoComponent,
+    PipesComponent
   ],
   imports: [
     BrowserModule,
